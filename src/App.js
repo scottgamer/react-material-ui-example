@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import "./App.css";
 import { Header, Footer } from "./components/Layouts";
 import Exercises from "./components/Exercises/Exercises";
+import Panes from "./components/Panes/Panes";
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <Fragment>
         <Header />
         <Exercises />
+        <Panes />
         <Footer />
       </Fragment>
     );
